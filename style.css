@@ -133,3 +133,17 @@ footer {
 .informacion h3 {
   color: #c04f7c;
 }
+#productos {
+  padding: 30px 15px;
+  text-align: center;
+  scroll-margin-top: 20px;
+}
+
+#productos h2 {
+  color: #c04f7c;
+}
+
+#productos .tarjeta {
+  background: #fff0f5;
+  border: 1px solid #f5bfd0;
+}
