@@ -99,3 +99,37 @@ footer {
         margin: 5px;
     }
 }
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.tarjeta {
+  background: #ffe4ec;
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  flex: 1 1 180px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+}
+
+.informacion {
+  background: #fff0f5;
+  border: 1px solid #f5bfd0;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.informacion h3 {
+  color: #c04f7c;
+}
