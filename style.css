@@ -231,3 +231,26 @@ footer {
         font-size: 1.2rem;
     }
 }
+/* Menú para teléfonos */
+@media screen and (max-width: 768px) {
+  /* Ocultar el menú principal en teléfonos */
+  nav:not(.menu-adicional) {
+    display: none;
+  }
+
+  /* Mostrar el menú desplegable */
+  .menu-adicional {
+    display: block;
+  }
+}
+
+/* En pantallas grandes */
+@media screen and (min-width: 769px) {
+  nav:not(.menu-adicional) {
+    display: flex;
+  }
+
+  .menu-adicional {
+    display: none;
+  }
+}
