@@ -147,3 +147,28 @@ footer {
   background: #fff0f5;
   border: 1px solid #f5bfd0;
 }
+#contacto {
+  background: #fff0f5;
+  padding: 30px 20px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#contacto h2 {
+  color: #c04f7c;
+}
+
+.contacto-info p {
+  margin: 15px 0;
+}
+
+.contacto-info a {
+  color: #c04f7c;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.contacto-info a:hover {
+  text-decoration: underline;
+}
