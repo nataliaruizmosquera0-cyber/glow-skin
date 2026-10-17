@@ -230,6 +230,51 @@ footer {
         content: "+";
         font-size: 1.2rem;
     }
+
+    /* Cambios cuando el acordeón se abre */
+.mobile-menu[open] summary {
+  border-color: var(--accent);
+  border-radius: 10px 10px 0 0;
+}
+
+/* Símbolo cuando está abierto */
+.mobile-menu[open] summary::after {
+  content: "−";
+}
+
+/* Enlaces del menú móvil */
+.mobile-links {
+  display: grid;
+  padding: 7px;
+  border: 1px solid var(--accent);
+  border-top: 0;
+  border-radius: 0 0 10px 10px;
+  background: white;
+  box-shadow: var(--shadow);
+}
+
+.mobile-links a {
+  padding: 12px 10px;
+  border-radius: 7px;
+  font-weight: 650;
+}
+
+.mobile-links a:hover,
+.mobile-links a:focus-visible {
+  background: var(--soft);
+  color: var(--accent);
+}
+
+/* Apilar las columnas en celular */
+.hero {
+  padding: 54px 62px;
+}
+
+.hero-grid,
+.about-grid,
+.contact-grid {
+  grid-template-columns: 1fr;
+}
 }
 /* Menú para teléfonos */
 @media screen and (max-width: 768px) {
